@@ -7,7 +7,39 @@ body {
     font-family: 'Odibee Sans', cursive;
     font-size: 1.1em;
     line-height: 1.5;
+
+    /*
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 100px 400px 400px 100px;
+    grid-template-areas: 
+    "h h h h"
+    "m m m m"
+    "s s s s"
+    "f f f f";
+    */
 }
+
+/*
+header {
+    grid-area: h;
+}
+
+main {
+    grid-area: m;
+}
+
+section {
+    grid-area: s;
+}
+
+footer {
+    grid-area: f;
+
+}
+*/
+
 
 .cake {
     display: block;
@@ -21,3 +53,21 @@ body {
     height: auto;
 }
 
+header {
+    background: rgb(255, 255, 255);
+    color: rgb(65, 7, 128);
+}
+
+
+
+/* Media Queries */
+
+/*
+@media (min-width: 540px) {
+    .section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+*/
