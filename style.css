@@ -1,4 +1,23 @@
 /*  Add your styling here */
 body {
+    margin: 0;
+    padding: 0;
+    background: rgb(233, 217, 240);
+    color:rgb(15, 17, 106);
     font-family: 'Odibee Sans', cursive;
+    font-size: 1.1em;
+    line-height: 1.5;
 }
+
+.cake {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cake1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
